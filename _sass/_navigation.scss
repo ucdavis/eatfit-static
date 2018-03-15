@@ -1,0 +1,52 @@
+nav {
+  background-color: #d15d36;
+  border-top: 5px solid #8f4228;
+  border-bottom:5px solid #8f4228;
+  .nav-link:hover {
+    background-color: #8f4228;
+  }
+  body[data-page="orange"] & {
+    background-color: #d15d36;
+    border-top: 5px solid #8f4228;
+    border-bottom:5px solid #8f4228;
+    .nav-link:hover {
+      background-color: #8f4228;
+    }
+  }
+  body[data-page="blue"] & {
+    background-color: #33b4d0;
+    border-top: 5px solid #138fbb;
+    border-bottom:5px solid #138fbb;
+    .nav-link:hover {
+      background-color: #138fbb;
+    }
+  }
+  body[data-page="green"] & {
+    background-color: #83c61f;
+    border-top: 5px solid #3c9e14;
+    border-bottom:5px solid #3c9e14;
+    .nav-link:hover {
+      background-color: #3c9e14;
+    }
+  }
+  body[data-page="purple"] & {
+    background-color: #984eb1;
+    border-top: 5px solid #673578;
+    border-bottom:5px solid #673578;
+    .nav-link:hover {
+      background-color: #673578;
+    }
+  }
+}
+.navbar {
+  padding:0px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color:#fff;
+  font-family: $sans-bold;
+  font-size:2.5rem;
+  padding:12px 24px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color:#fff;
+}
