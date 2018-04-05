@@ -5,6 +5,7 @@ html {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     line-height: 1.5;
     font-family: $sans-reg;
+    color:#fff;
     //
     // @include breakpoint(tablet) {
     //     font-size: 8px;
@@ -29,17 +30,6 @@ a {
     }
   }
 }
-p a ,.content-block li a {
-  font-weight: 700;
-  text-decoration: underline;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-a.no-underline {
-  text-decoration: none;
-}
 a:hover {
   text-decoration: none;
 }
@@ -60,17 +50,12 @@ ul, ol {
 p {
   font-size:1.6rem;
   font-family: $sans-reg;
-  color:$primary-font;
+  color:#fff;
   // margin:1.2rem 0rem;
   &.lead {
     font-size:1.8rem;
     margin-top:0px;
   }
-  footer & {
-    color:$primary-font;
-    font-size:1.4rem;
-  }
-
 }
 h1,
 h2,

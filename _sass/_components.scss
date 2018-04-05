@@ -188,6 +188,9 @@ ol.breadcrumb {
 .align-center {
   align-self: center;
 }
+.align-end {
+  align-items: flex-end;
+}
 
 .flex-between {
   justify-content: space-between;
@@ -275,4 +278,7 @@ table.dataTable tr.even td {
 }
 .a-color {
   color:$a-link;
+}
+.toppad {
+  padding:15px 0px;
 }
