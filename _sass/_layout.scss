@@ -161,6 +161,7 @@ header {
     display: inline-block;
     padding: 30px 35px;
     position: absolute;
+    bottom:-14px;
     left: 5px;
     font-weight: normal;
     display: block;
@@ -168,7 +169,7 @@ header {
   img {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -146px;
     left: 0;
     right: 0;
   }
