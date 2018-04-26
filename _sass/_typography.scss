@@ -95,6 +95,12 @@ h3 {
   text-transform: uppercase;
   color:$primary-font;
 }
+tr {
+  td {
+    color:#fff;
+    font-size:1.6rem;
+  }
+}
 .h-wrapper {
   display:inline-block;
   // @include breakpoint(tablet) {
