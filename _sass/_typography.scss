@@ -17,8 +17,24 @@ html {
 body {
     font-family: $sans-reg;
 }
+
 a {
   color:$a-link;
+  body[data-page="blue"] & {
+    color:#33b4d0;
+    &:hover {
+      color:$eatfit-blue;
+    }
+  }
+  body[data-page="purple"] & {
+    color:$eatfit-purple;
+    &:hover {
+      color:$eatfit-purple;
+    }
+  }
+  body[data-page="green"] & {
+    color:#83c61f;
+  }
   &:hover {
     color:$primary-color;
   }

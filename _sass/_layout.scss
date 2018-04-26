@@ -102,6 +102,12 @@ header {
 
       li {
         a {
+          body[data-page="blue"] & {
+            color:$eatfit-blue
+          }
+          body[data-page="purple"] & {
+            color:$eatfit-purple
+          }
           color: $eatfit-green;
           font-family: $sans-bold;
           font-weight: bold;
@@ -145,7 +151,15 @@ header {
     font-size: 7em;
   }
 }
-
+body[data-page="green"] i {
+  background:$eatfit-green;
+}
+body[data-page="blue"] i {
+  background:$eatfit-blue;
+}
+body[data-page="purple"] i {
+  background:$eatfit-purple;
+}
 .halfheader {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -153,8 +167,22 @@ header {
   overflow: hidden;
   position: relative;
   margin-top: 20px;
+body[data-page="green"] & {
+  h1 {
+    color:$eatfit-green
+  }
+}
+body[data-page="blue"] & {
+  h1 {
+    color:$eatfit-blue
+  }
+}
+body[data-page="purple"] & {
+  h1 {
+    color:$eatfit-purple
+  }
+}
   i {
-    background: $eatfit-green;
     color: #fff;
     border-radius: 50%;
     font-size: 3em;
@@ -176,7 +204,6 @@ header {
 
   h1 {
     text-shadow: 1px 1px 18px rgba(33,33,33,.5);
-    color: $eatfit-green;
     padding-left: 35px;
     margin: 0;
     display: inline-block;
