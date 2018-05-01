@@ -108,6 +108,9 @@ header {
           body[data-page="purple"] & {
             color:$eatfit-purple
           }
+          body[data-page="orange"] & {
+            color:$eatfit-orange
+          }
           color: $eatfit-green;
           font-family: $sans-bold;
           font-weight: bold;
@@ -160,6 +163,9 @@ body[data-page="blue"] i {
 body[data-page="purple"] i {
   background:$eatfit-purple;
 }
+body[data-page="orange"] i {
+  background:$eatfit-orange;
+}
 .halfheader {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -175,6 +181,11 @@ body[data-page="green"] & {
 body[data-page="blue"] & {
   h1 {
     color:$eatfit-blue
+  }
+}
+body[data-page="orange"] & {
+  h1 {
+    color:$eatfit-orange
   }
 }
 body[data-page="purple"] & {
