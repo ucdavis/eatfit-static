@@ -226,7 +226,7 @@ body[data-page="purple"] & {
   }
 }
 
-.col {
+.col, .col-4 {
   img {
     width: 100%;
     border-radius: 16px;
@@ -246,7 +246,7 @@ body[data-page="purple"] & {
   .row {
     margin: 20px 0;
 
-    .col {
+    .col, .col-4 {
       a {
         font-size: 3em;
         padding: 0.5em 1em 4em 0.5em;
