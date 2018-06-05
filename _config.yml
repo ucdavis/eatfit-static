@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 subject: Nutrition and Fitness
 repo: "https://github.com/ucdavis/eatfit-static"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://eatfit.ucdavis.edu" # the base hostname & protocol for your site
+url: "https://eatfit.ucdavis.edu" # the base hostname & protocol for your site
 
 break: md
 
